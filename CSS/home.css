@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("../Image/signup.jpg");
+    background-color: rgba(0, 0, 0, 0.70);
+    background-blend-mode: multiply;
+    background-size:cover;
+}
+.label{
+    color: rgb(22, 238, 87);
+    font-size:30px;
+    margin: 5px;
+    text-align: center;
+}
+#music{
+    transition: 5s;
+    animation: movemusic 5s 1;
+}
+@keyframes movemusic {
+    0%{transform: rotate(-180deg);}
+    50%{transform: translateX(-200px);}
+    100%{transform: translateX(0);}   
+}
+#movie{
+    transition: 5s;
+    animation: movemovie 5s 1;
+}
+@keyframes movemovie {
+    0%{transform: rotate(180deg);}
+    50%{transform: translateX(200px);}
+    100%{transform: translateX(0);}    
+}
+img{
+    width: 180px;
+    height: 180px;
+    box-shadow: 0 0 10px 10px rgb(175, 12, 12);
+    border-radius: 5px;
+    margin: 50px 40%;
+}
+img:hover{
+    box-shadow: 0 0 10px 10px green;
+}

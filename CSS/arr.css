@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+/* background: linear-gradient(rgb(36, 37, 36),rgb(34, 155, 60)); */
+background-image: url(../Image/rea14.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.circle{
+    width: 250px;
+    border-radius:10px;
+    box-shadow: 0 0 3px 3px whitesmoke;
+    height: 350px;
+    background-color: #fff;  
+}
+h6{
+    color: #fff;
+    font-size:larger;
+    font-weight: bolder;
+    margin-top:20px;
+    text-align: center;
+}
+.circle p{
+    color:rgb(187, 45, 45);
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.art{
+    width:125px;
+    border-radius: 50%;
+    box-shadow: 0 0 3px 3px white;
+}
+.musicHead h2{
+    margin-top: 20px;
+    color:rgb(224, 218, 218);
+    text-align: center;
+    text-decoration: underline; 
+}
+.musicRow{
+    display: flex;
+    flex-direction: column;  
+    color: #fff;
+    gap: 35px;
+    margin-top: 15px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bolder;
+}
+.musicRow p{
+   padding: 25px;
+}
+audio{
+    height: 40px;
+    padding: 8px;
+    margin-left: 100px;
+}
+.music-song{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 20px;
+}
+.MusicBox{
+    display: flex;
+    margin: 20px 70px;
+    box-shadow: inset;
+}
+.MusicBox .h1{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 69px; 
+}
+.imgs{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 10px;
+}
+
+.imgs img{
+    box-shadow: 0 0 1px 1px whitesmoke;
+}
+.top-box{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 50px;  
+}
+.new img:hover{
+    width: 240px;
+    height: 210px;
+    box-shadow: 0 0 3px 3px red;
+    border-radius: 10px;
+}
+h4{
+    color:rgb(247, 9, 9);
+    margin:35px 80px ;
+    font-size: x-large;
+}
+.new{
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: 0  0 5px 5px whitesmoke;
+}
+.new img{
+    width: 225px;
+    height: 200px;
+}
+.new p{
+    color: black;
+    text-align: center;
+}
